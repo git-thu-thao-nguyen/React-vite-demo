@@ -1,7 +1,15 @@
+//JSX
+//fragment
+
+import './style.css';
 
 const MyComponent = () => {
     return (
-        <div>Eric & hoidanit</div> //tag
+        <>
+            <div>Eric & hoidanit</div> 
+            <div className="child" style={{borderRadius: "10px"}}>child</div>
+        </>
+        
     )
 }
 
